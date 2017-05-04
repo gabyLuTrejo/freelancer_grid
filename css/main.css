@@ -110,3 +110,22 @@ section.row + p {
 .img-pad {
   padding: 15px 30px;
 }
+
+#about {
+  background: #18BC9C;
+}
+
+p.col-3 {
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  padding: 20px 20px;
+}
+
+.btn-home{
+  color: #FFF;
+  border: 2px solid #FFF;
+  padding: 11px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+}
