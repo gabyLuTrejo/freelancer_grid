@@ -100,3 +100,18 @@ hr.star::after, hr.star2::after {
 section.row + p {
   color: white;
 }
+
+.name2 {
+  font-size: 2.5em;
+  color: inherit;
+  font-weight: bold;
+}
+
+.img-pad {
+  padding: 15px 30px;
+}
+
+/*.pad-left {
+  padding-left: 20px;
+  padding-right: 20px;
+}*/
