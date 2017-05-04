@@ -14,8 +14,6 @@
 nav {
   position: fixed;
   background: #2C3E50;
-  min-height: 50px;
-  margin-bottom: 20px;
   width: 100%;
   right: 0;
 }
@@ -38,15 +36,67 @@ a:hover {
 .link {
   font-weight: 700;
   font-size: 13px;
-  margin-top: 25px;
+  margin-top: 28px;
 }
 
 .boostrap {
   padding: 25px 0;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .boostrap:hover {
+  color: white;
+}
+
+#principal {
+  background: #18BC9C;
+}
+
+.profile {
+  height: auto;
+  max-width: 100%;
+}
+
+.name {
+  font-size: 4.75em;
+  color: white;
+}
+
+hr.star {
+  color: #FFF;
+  border: 4px solid white;
+  height: 4px;
+  margin-bottom: 30px;
+}
+
+hr.star::after {
+  background-color: #18BC9C;
+  color: #fff;
+}
+
+hr.star2 {
+  color: white;
+  border: 4px solid #2C3E50;
+  height: 4px;
+  margin-bottom: 30px;
+}
+
+hr.star2::after {
+  background-color: #fff;
+  color: #2C3E50;
+}
+
+hr.star::after, hr.star2::after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -.8em;
+  font-size: 2em;
+  padding: 0 .25em;
+}
+
+section.row + p {
   color: white;
 }
