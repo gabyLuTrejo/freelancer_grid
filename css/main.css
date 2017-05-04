@@ -1,3 +1,52 @@
 /*
  * Estilos de tu proyecto
  */
+
+ body {
+  /* Establece la fuente de Google aquÃ­ */
+  font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1.71429;
+  background-color: #FFF;
+}
+
+nav {
+  position: fixed;
+  background: #2C3E50;
+  min-height: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  right: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: #18BC9C;
+}
+
+.link {
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+.boostrap {
+  padding: 25px 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.boostrap:hover {
+  color: white;
+}
