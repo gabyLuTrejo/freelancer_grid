@@ -13,6 +13,7 @@
 
 nav {
   position: fixed;
+  z-index: 1030;
   background: #2C3E50;
   width: 100%;
   right: 0;
@@ -128,4 +129,72 @@ p.col-3 {
   padding: 11px 20px;
   border-radius: 6px;
   font-size: 16px;
+}
+
+.form-label {
+  border: none;
+  border-radius: 0;
+  box-shadow: none!important;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 7px;
+  height: auto;
+}
+
+label {
+  cursor: default;
+  z-index: 0;
+  opacity: 0;
+  max-width: 100%;
+  font-weight: 700;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 1.5em;
+  line-height: 1.42857143;
+  color: #555;
+}
+
+input, textarea {
+  border: none;
+  font-family: inherit;
+  text-indent: 0px;
+  text-align: start;
+  cursor: auto;
+}
+
+textarea {
+  overflow: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.btn {
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid transparent;
+  align-items: flex-start;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #18BC9C;
+  border-color: #18BC9C;
+  font-weight: 700;
+}
+
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #128f76;
+  border-color: #11866f;
 }
