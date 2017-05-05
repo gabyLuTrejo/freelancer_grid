@@ -13,7 +13,7 @@
 
 nav {
   position: fixed;
-  z-index: 1030;
+  z-index: 1;
   background: #2C3E50;
   width: 100%;
   right: 0;
@@ -197,4 +197,16 @@ textarea {
   color: #fff;
   background-color: #128f76;
   border-color: #11866f;
+}
+
+.footer-top {
+  background-color: #2C3E50;
+  color: #FFF;
+  padding-top: 50px;
+}
+
+.footer-bottom {
+  padding: 25px 0;
+  background-color: #233140;
+  color: #FFF;
 }
